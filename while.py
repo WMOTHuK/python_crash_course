@@ -63,4 +63,3 @@ print("\nHere are the poll results:")
 
 for name, place in travels.items():
      print(f"{name} wants to travel to {place}.")
-
