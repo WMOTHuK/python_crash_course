@@ -1,6 +1,9 @@
 """ Python Crash Course. Chapter 10. Exceptions"""
-
+#Standard imports
 import chardet
+
+#Local imports
+from PCC_input_functions import getuserint
 
 # 10-6 Sum \ 10-7 Calculator
 
@@ -11,17 +14,7 @@ prompt_num1 = ("Enter first number: ")
 prompt_num2 = ("Enter second number: ")
 
 
-def getuserint(prompt):
-    """colletcs user input as int or returns error"""
-    while True:
-        userinput = input(prompt)
-        if userinput == 'q':
-            return None
-        else:
-            try:
-                return int(userinput)
-            except ValueError:
-                print("Please enter number, not text. Make your input again.")
+
 
 
                  
