@@ -1,6 +1,4 @@
 """ Python Crash Course Chapter 10 (JSON)"""
-#standard imports
-import json
 #local imports
 from PCC_input_functions import getuserint
 from PCC_json_functions import (write_value_to_json,
